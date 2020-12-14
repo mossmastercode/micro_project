@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+  <link rel="stylesheet" type="text/css" href="../micro_project/styleSheet.css">
     <meta charset="utf-8">
     <title id="title">Our Survey Form</title>
+    <h1 id="header1">This is our First Microverse code collaboration</h1>
   </head>
   <body>
-<p>This is a Survey Form which is being built up by Muhammed and Mosisa. This Survey Form includes some interactive forms like Radio Button,Text areas and Submissions.</p>
+  
+<p>This is a Survey Form which is being built up by Muhammed and Mosisa. This Survey Form includes
+<br>some interactive forms like Radio Button,Text areas and Submissions.</p>
 <form class="" action="index.html" method="post" id="survey-form">
-  <<label for="name" id="name-label"Name: </label>
+  <label for="name" id="name-label">Name: </label>
 <input id="name" type="text" name="" value="" placeholder="Enter Your Name">
 <br><br>
 <label for="email" id="email-label">Email: </label>
@@ -22,8 +26,43 @@
   <option value="Full time Employee">Full time Employed</option>
   <option value="Part time Employee">Part time Employee</option>
   <option value="Prefer not to say">Prefer Not to say</option>
-
 </select>
 </form>
+<br><br>
+<form class="rate_code" action="index.html" method="post">
+  <label for="rate_code" id="rate">How do yoy rate our code?</label>
+  <br>
+  <input value="1" name="rate_code" class="rate_code"type="radio">Excellent
+  <br>
+  <input value="2" name="rate_code" class="rate_code"type="radio">Good
+  <br>
+  <input value="3" name="rate_code" class="rate_code"type="radio">Needs to improve
+  <br>
+  </form>
+  <br><br>
+  <form class="to improve" action="index.html" method="post">
+    <label for="to improve" id="improve this items">Which area needsto be improved?</label>
+    <br>
+    <input value="1" name="to improve" class="to improve"type="checkbox">HTML
+    <br>
+    <input value="2" name="to improve" class="to improve"type="checkbox">CSS
+    <br>
+    <input value="3" name="to improve" class="to improve"type="checkbox">Back End
+    <br>
+    <input value="3" name="to improve" class="to improve"type="checkbox">Algorthims
+    <br>
+    <input value="3" name="to improve" class="to improve"type="checkbox">Data structure
+    <br>
+    </form>
+    <br><br>
+    <form class="comment" action="index.html" method="post">
+      <label for="comment">COMMENT HERE</label>
+      <br>
+      <textarea name="comment" rows="5" cols="50"></textarea>
+      <br><br>
+      <input type="button" name="submit" value="Submit" id="submit">
+
+    </form>
+
   </body>
 </html>
